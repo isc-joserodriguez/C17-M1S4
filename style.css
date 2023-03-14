@@ -1,0 +1,31 @@
+.ejemplo-flexbox {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* Nos permite decidir si queremos acomodar por filas o por columnas */
+    flex-wrap: nowrap;
+    /* Permite el desborde de los elementos */
+    justify-content: space-evenly; /* alineación horizontal SI LA DIRECCIÓN ES POR FILA */
+    align-items: flex-end;/* alineación vertical SI LA DIRECCIÓN ES POR FILA */
+}
+
+.cuadro {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.rojo {
+    background-color: red;
+
+}
+
+.verde {
+    background-color: green;
+    order: 2; /* Indica el orden en que se va a colocar el elemento */
+}
