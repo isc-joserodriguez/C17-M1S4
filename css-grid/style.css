@@ -1,0 +1,29 @@
+.ejemplo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 50%;
+    grid-template-rows: repeat(5, 100px);
+    gap: 50px;
+    
+}
+
+.cuadro {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.rojo {
+    background-color: red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.verde {
+    background-color: green;
+}
